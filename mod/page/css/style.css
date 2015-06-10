@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+
+table#form td.submit, .form-buttons, .path-admin .buttons, #fitem_id_submitbutton, .fp-content-center form+div, div.backup-section+form, #fgroup_id_buttonar {
+	background-color: white;
+}
+
+input#id_submitbutton{
+float:right;
+position: relative;
+top:-80px;
+right:470px;
+
+
+	
+}
