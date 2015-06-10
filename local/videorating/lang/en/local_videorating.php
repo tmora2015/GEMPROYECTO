@@ -19,8 +19,8 @@
  * Strings for component 'loca_sharemedia', language 'en', branch 'MOODLE_20_STABLE'
  *
  * @package   local
- * @subpackage sharemedia
- * @copyright 2015 Ilyan Triantafilo Cerda (itriantafilo@alumnos.uai.cl)
+ * @subpackage videorating
+ * @copyright 2015
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
