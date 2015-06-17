@@ -153,7 +153,7 @@ else if($existingrate){
 	echo "Votes:".'&nbsp'.$numberofvotes.".".'&nbsp'."Average".'&nbsp'."($meanofvotes)";
 	echo "<br>";
 	echo "<br>";
-	echo '<div class="alert alert-info">You have already voted for this video. Thanks.</div>';
+	echo '<div class="alert alert-info">You have already voted for this video. Thanks. If you want to do your feedback please click here'.$OUTPUT->single_button('','Feedback').'</div>';
 }
 echo $OUTPUT->box($content, "generalbox center clearfix");
 
