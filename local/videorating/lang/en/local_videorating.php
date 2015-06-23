@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'loca_sharemedia', language 'en', branch 'MOODLE_20_STABLE'
+ * Strings for component 'local_videorating', language 'en'
  *
  * @package   local
  * @subpackage videorating
@@ -27,6 +27,6 @@
 $string['pluginname']= 'VideoRating';
 $string['votes'] = 'Votes';
 $string['average'] = 'Average';
-$string['alreadyvoted'] = 'You have already voted for this video. Thanks.';
+$string['alreadyvoted'] = 'You have already voted for this video. Thanks.If you want to do your feedback please click here';
 $string['ratevideo'] = 'Rate the video';
 $string['vote'] = 'Vote';

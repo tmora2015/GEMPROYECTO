@@ -26,7 +26,7 @@
 require_once(dirname(__FILE__) . '/../../config.php');
 require_once("$CFG->libdir/formslib.php");
 
-class rating extends moodleform{
+class rating extends moodleform {
 	function definition(){
 		global $CFG, $DB, $USER, $PAGE;
 		
@@ -38,3 +38,16 @@ class rating extends moodleform{
 	}
 }
 //form to update status of user
+
+class comment extends moodleform{
+	function definition() {
+		global $CFG, $DB, $USER, $PAGE;
+		
+		$mform = $this->_form;
+		$mform->addElement('textarea','comment', 'Make a comment for the video.','wrap="virtual" rows="3" cols="70"');
+		$mform->addRule('comment','You need to insert some text','required');
+		$mform->setType('comment', PARAM_ALPHANUM);
+		$this->add_action_buttons($cancel = false, $submit = 'Send'); //action buttons
+		
+	}
+}
