@@ -33,11 +33,11 @@ class rating extends moodleform {
 		$array = array_combine(range(1,7,1),range(1,7,1));
 		
 		$mform = $this->_form;
-		$mform->addElement('select', 'rate', 'Rate the video', $array); //creating a select 
-		$this->add_action_buttons($cancel = false, $submit = 'Vote'); //action buttons
+		$mform->addElement('select', 'rate', 'Rate the video', $array); //crea el select 
+		$this->add_action_buttons($cancel = false, $submit = 'Vote'); //boton para accionar
 	}
 }
-//form to update status of user
+//formulario para el voto de los videos
 
 class comment extends moodleform{
 	function definition() {
@@ -51,3 +51,4 @@ class comment extends moodleform{
 		
 	}
 }
+//formulario para el comentario

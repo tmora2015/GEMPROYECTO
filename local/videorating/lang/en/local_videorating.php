@@ -27,6 +27,6 @@
 $string['pluginname']= 'VideoRating';
 $string['votes'] = 'Votes';
 $string['average'] = 'Average';
-$string['alreadyvoted'] = 'You have already voted for this video. Thanks.If you want to do your feedback please click here';
+$string['alreadyvoted'] = 'You have already voted for this video. Thanks.';
 $string['ratevideo'] = 'Rate the video';
 $string['vote'] = 'Vote';
